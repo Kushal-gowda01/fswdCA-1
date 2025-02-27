@@ -1,9 +1,9 @@
-//take props and display
+
 import React from 'react'
 import Testimonial from '../App.jsx'
 
 const TestimonialCard = ({ customerName, reviewText }) => {
-    const { customerName, reviewText } = props;
+
     return (
         <div className="testimonial-card">
             <h3>{customerName}</h3>
